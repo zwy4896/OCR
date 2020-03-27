@@ -1,6 +1,6 @@
-data_dir="/algdata02/wuyang.zhang/_tfrecord/JPN" # tfrecord path
-val_dir="/algdata02/wuyang.zhang/50.31/ocr_tf_crnn_ctc/Arabic_tfrecord" # validation sets path
-model_dir="/algdata02/wuyang.zhang/50.31/tfrecord_bak/models-DENSENET_CTC-JPN-2020-03-16_17-45-19"  # If you want to restore, change this to your ckpt path
+data_dir="" # tfrecord path
+val_dir="" # validation sets path
+model_dir=""  # If you want to restore, change this to your ckpt path. Otherwise, just let it go!
 restore="False"   # Whether to restore
 gpu_list="0,1,2,4"  # GPU list
 batch_size=32   # batch size

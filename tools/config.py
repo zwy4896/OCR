@@ -8,12 +8,21 @@
 '''
 
 # here put the import lib
-
+############################ Train ###############################
 import keys
 # Language
-Lang = 'CN'
+'''
+CN | Simplified Chinese
+TW | Traditional Chinese
+KR | Korean
+DE | Deutsch
+AB | Arabic
+JPN | Japanese
+'''
+Lang = 'JPN'
 
-characters = keys.alphabet_blank[:] + u'卍'
+characters = keys.alphabet_JPN[:] + u'卍'
+
 
 # Network architecture
 '''
@@ -31,6 +40,10 @@ MaxWid = 3113
 MaxLen = 60
 
 # Logger config
-logPath = ''
+logPath = '/algdata02/algo-share/wuyang.zhang/logs/'
 logTaskName = NetWork + '-' + Lang
-logTrainMemberName = ''
+logTrainMemberName = "wuyang.zhang"
+
+######################## For inference ########################
+MTHD = 'ckpt'
+###############################################################
