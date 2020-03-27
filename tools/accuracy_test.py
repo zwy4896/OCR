@@ -254,14 +254,8 @@ if __name__ == '__main__':
                         dt_t = re.sub("[\s+\.\!\/_,$%^*(+\"\']+|[+——！:：\【\】\[\]|〔「」［］«‹»《》☆ー※–><‘'’；;“”，·。#＃.？?()、\-~@：❁❋￥%……&*（）・]+", "", dt_txt[j])
                         gt_t = gt_t.lower()
                         dt_t = dt_t.lower()
-                        # if 'ては' in dt_t:
-                        #     dt_t.replace('ては', 'では')
                         dt_list.append(dt_t)
                         gt_list.append(gt_t)
-                        # print('IOU: ', iou)
-                        # for g in gt_t:
-                        #     if g not in high:
-                        #         is_continue = False
                         if is_continue and '#' not in gt_t and '＃' not in gt_t:
                             print('gt: ', gt_t, 'dt: ', dt_t)
                             if arg.mod == 'acc':

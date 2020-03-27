@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+'''
+@File    :   train_densenetocr_ctc_multigpu.py
+@Time    :   2020/03/27 14:40:57
+@Author  :   Zhang Wuyang
+@Version :   1.0
+'''
+
+# here put the import lib
+
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function

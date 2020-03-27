@@ -1,6 +1,7 @@
-# A easy-to-use multi-metwork OCR training script
+# A easy-to-use multi-network OCR training script
 
 You can train a deep-learning OCR model using only three bash files.
+Surpported network: DenseNet, crnn, InceptionV4, mobileNetV3
 
 ## 1. Create keys
 

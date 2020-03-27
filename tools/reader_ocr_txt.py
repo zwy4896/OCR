@@ -1,4 +1,15 @@
 #coding=utf-8
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+'''
+@File    :   reader_ocr_txt.py
+@Time    :   2020/03/27 14:40:44
+@Author  :   Zhang Wuyang
+@Version :   1.0
+'''
+
+# here put the import lib
+
 import cv2
 import numpy as np
 import os
